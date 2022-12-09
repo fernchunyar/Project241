@@ -1,6 +1,6 @@
 package main;
 
-public class MyArrayList {
+public class MyArrayList implements MyArrayListADT{
 	
 	private int total;
     private Item s[];
