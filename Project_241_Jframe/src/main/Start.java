@@ -55,7 +55,7 @@ public class Start {
 		StartButton.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				Jframe_Test sfd = new Jframe_Test();
+				Shoppop sfd = new Shoppop();
 				sfd.Shoppop.setVisible(true);
 				start.dispose();
 			}

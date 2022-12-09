@@ -12,7 +12,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.awt.Color;
 
-public class Jframe_Test extends MyArrayList{
+public class Shoppop extends MyArrayList{
 
 	static JFrame Shoppop;
 	public JLabel YourItems;
@@ -38,7 +38,7 @@ public class Jframe_Test extends MyArrayList{
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Jframe_Test window = new Jframe_Test();
+					Shoppop window = new Shoppop();
 					window.Shoppop.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -52,7 +52,7 @@ public class Jframe_Test extends MyArrayList{
 	/**
 	 * Create the application.
 	 */
-	public Jframe_Test() {
+	public Shoppop() {
 		initialize();
 	}
 
@@ -227,6 +227,7 @@ public class Jframe_Test extends MyArrayList{
 		
 	
 		JLabel BG = new JLabel("");
+		BG.setIcon(new ImageIcon(Shoppop.class.getResource("/images/bg.jpg")));
 		
 		
 		//BG.setIcon(new ImageIcon(shoppop.class.getResource("/images/bg.jpg")));
